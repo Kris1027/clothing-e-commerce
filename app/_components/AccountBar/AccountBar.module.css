@@ -1,0 +1,12 @@
+.accountBar {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 1rem;
+}
+
+.accountBar a {
+    color: black;
+    font-size: .7rem;
+    text-decoration: none;
+}

@@ -1,4 +1,4 @@
-# Clothing E-Commerce
+# Clothing E-Commerce - MASSDNM Clone
 
 `live` : <https://clothing-e-commerce-steel.vercel.app/>
 
@@ -8,10 +8,10 @@
 
 ## Technologies:
 
--  JavaScript
--  React
--  TypeScript
--  Next.js
+- JavaScript
+- React
+- TypeScript
+- Next.js
 
 ## List to do:
 

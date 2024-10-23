@@ -1,0 +1,17 @@
+.topBar {
+   background-color: white;
+   border-bottom: 0.2rem solid black;
+   color: black;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 130px;
+   max-width: 1280px;
+   margin: 0 auto;
+}
+
+.container {
+   display: flex;
+   flex-direction: column;
+   gap: 2rem;
+}

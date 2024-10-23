@@ -18,13 +18,13 @@
 }
 
 /* Dark mode user-agent-styles and typography improvements */
-html {
-    color-scheme: dark light;
-    /* hanging-punctuation is not widely supported, consider if needed */
-    hanging-punctuation: first last;
-    /* Ensure proper viewport height on mobile */
-    min-height: 100%;
-}
+/*html {*/
+/*    color-scheme: dark light;*/
+/*    !* hanging-punctuation is not widely supported, consider if needed *!*/
+/*    hanging-punctuation: first last;*/
+/*    !* Ensure proper viewport height on mobile *!*/
+/*    min-height: 100%;*/
+/*}*/
 
 /* Set consistent body height */
 body {

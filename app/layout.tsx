@@ -1,6 +1,7 @@
 import type {Metadata} from 'next';
 import './globals.css';
 import {Montserrat} from 'next/font/google'
+import TopBar from '@/app/_components/TopBar/TopBar';
 
 const montserrat = Montserrat({
     weight: ['400', '500', '700'],
@@ -18,8 +19,9 @@ export default function RootLayout({
     children: React.ReactNode;
 }>) {
     return (
-        <html lang="en">
+        <html lang='en'>
         <body className={montserrat.className}>
+        <TopBar/>
         {children}
         </body>
         </html>

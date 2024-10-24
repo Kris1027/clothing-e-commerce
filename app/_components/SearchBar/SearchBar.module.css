@@ -1,6 +1,11 @@
 .searchBar {
-    background-color: black;
-    color: white;
-    cursor: pointer;
-    padding: .8rem;
+   background-color: black;
+   color: white;
+   cursor: pointer;
+   padding: 0.8rem;
+}
+
+.searchBar:hover {
+   background-color: silver;
+   color: black;
 }

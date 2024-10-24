@@ -1,19 +1,40 @@
 import styles from '@/app/_components/NavigationBar/NavigationBar.module.css';
+import Link from 'next/link';
 
 const NavigationBar = () => {
    return (
       <nav className={styles.navigationBar}>
          <ul>
-            <li>nowości</li>
-            <li>akcesoria</li>
-            <li>bluzy</li>
-            <li>czapki</li>
-            <li>koszulki</li>
-            <li>kurtki</li>
-            <li>spodnie</li>
-            <li>baggy</li>
-            <li>xxxxl</li>
-            <li>sale</li>
+            <li>
+               <Link href="/new">Nowości</Link>
+            </li>
+            <li>
+               <Link href="/accessories">Akcesoria</Link>
+            </li>
+            <li>
+               <Link href="/hoodies">Bluzy</Link>
+            </li>
+            <li>
+               <Link href="/caps">Czapki</Link>
+            </li>
+            <li>
+               <Link href="/tshirts">Koszulki</Link>
+            </li>
+            <li>
+               <Link href="/jackets">Kurtki</Link>
+            </li>
+            <li>
+               <Link href="/pants">Spodnie</Link>
+            </li>
+            <li>
+               <Link href="/baggie">Baggy</Link>
+            </li>
+            <li>
+               <Link href="/xxxxl">Xxxxl</Link>
+            </li>
+            <li>
+               <Link href="/sale">Sale</Link>
+            </li>
          </ul>
       </nav>
    );

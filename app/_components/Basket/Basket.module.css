@@ -12,4 +12,5 @@
    bottom: -3rem;
    right: 0;
    text-decoration: none;
+   z-index: 50;
 }

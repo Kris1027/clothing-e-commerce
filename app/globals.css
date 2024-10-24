@@ -2,19 +2,19 @@
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
+   box-sizing: border-box;
 }
 
 /* Remove default spacing and enforce consistent typography */
 * {
-    margin: 0;
-    padding: 0;
-    font: inherit;
+   margin: 0;
+   padding: 0;
+   font: inherit;
 }
 
 /* Define custom properties */
 :root {
-    --p-max-width: 65ch;
+   --p-max-width: 65ch;
 }
 
 /* Dark mode user-agent-styles and typography improvements */
@@ -28,8 +28,8 @@
 
 /* Set consistent body height */
 body {
-    min-height: 100vh; /* Fallback for older browsers */
-    min-height: 100svh;
+   min-height: 100vh; /* Fallback for older browsers */
+   min-height: 100svh;
 }
 
 /* Responsive media elements */
@@ -37,9 +37,9 @@ img,
 picture,
 svg,
 video {
-    display: block;
-    max-width: 100%;
-    height: auto; /* Added for better aspect ratio handling */
+   display: block;
+   max-width: 100%;
+   height: auto; /* Added for better aspect ratio handling */
 }
 
 /* Typography improvements */
@@ -49,22 +49,22 @@ h3,
 h4,
 h5,
 h6 {
-    text-wrap: balance;
-    line-height: 1.2; /* Added for better readability */
+   text-wrap: balance;
+   line-height: 1.2; /* Added for better readability */
 }
 
 /* Improve text readability */
 p,
 li {
-    max-width: 65ch; /* Fallback */
-    max-width: var(--p-max-width);
-    text-wrap: pretty;
-    line-height: 1.5; /* Added for better readability */
+   max-width: 65ch; /* Fallback */
+   max-width: var(--p-max-width);
+   text-wrap: pretty;
+   line-height: 1.5; /* Added for better readability */
 }
 
 /* Optional: Add smooth scrolling */
 @media (prefers-reduced-motion: no-preference) {
-    html {
-        scroll-behavior: smooth;
-    }
+   html {
+      scroll-behavior: smooth;
+   }
 }

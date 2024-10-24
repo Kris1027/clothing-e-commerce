@@ -3,6 +3,7 @@ import './globals.css';
 import { Montserrat } from 'next/font/google';
 import TopBar from '@/app/_components/TopBar/TopBar';
 import Divider from './_components/Divider/Divider';
+import StickyNavBar from './_components/StickyNavBar/StickyNavbar';
 
 const montserrat = Montserrat({
    weight: ['400', '500', '700'],
@@ -24,6 +25,7 @@ export default function RootLayout({
       <html lang='pl'>
          <body className={montserrat.className}>
             <TopBar />
+            <StickyNavBar />
             <Divider />
             {children}
          </body>

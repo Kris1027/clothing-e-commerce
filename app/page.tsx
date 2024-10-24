@@ -1,11 +1,12 @@
-import { FC } from 'react';
+import Hero from '@/app/_components/Hero/Hero';
 import styles from '@/app/page.module.css';
+import { FC } from 'react';
 
 const HomePage: FC = () => {
    return (
       <main className={styles.page}>
-         <h1>clothing-e-commerce</h1>
-         <p>loading...</p>
+         <Hero image='/hero_1.jpg' link='/new' />
+         <Hero image='/hero_2.jpg' link='/jackets' />
       </main>
    );
 };

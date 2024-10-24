@@ -1,6 +1,5 @@
 .topBar {
    background-color: white;
-   border-bottom: 0.2rem solid black;
    color: black;
    display: flex;
    justify-content: space-between;

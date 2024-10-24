@@ -12,8 +12,8 @@ const TopBar: FC = () => {
          <div className={styles.container}>
             <AccountBar />
             <NavigationBar />
+            <Basket />
          </div>
-         <Basket />
       </header>
    );
 };

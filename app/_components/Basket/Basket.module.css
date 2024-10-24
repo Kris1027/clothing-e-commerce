@@ -1,0 +1,14 @@
+.basket {
+   background-color: black;
+   color: white;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   font-size: 1.5rem;
+   font-weight: 500;
+   width: 210px;
+   padding: 1rem;
+   position: absolute;
+   bottom: -3rem;
+   right: 0;
+}

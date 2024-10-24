@@ -1,4 +1,5 @@
 import AccountBar from '@/app/_components/AccountBar/AccountBar';
+import Basket from '@/app/_components/Basket/Basket';
 import Logo from '@/app/_components/Logo/Logo';
 import NavigationBar from '@/app/_components/NavigationBar/NavigationBar';
 import styles from '@/app/_components/TopBar/TopBar.module.css';
@@ -12,6 +13,7 @@ const TopBar: FC = () => {
             <AccountBar />
             <NavigationBar />
          </div>
+         <Basket />
       </header>
    );
 };
